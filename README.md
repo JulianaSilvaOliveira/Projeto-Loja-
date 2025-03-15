@@ -8,7 +8,7 @@ CREATE DATABASE loja;
 USE loja;
 
 CREATE TABLE cliente (
-	cod_clientes INT PRIMARY KEY AUTO_INCREMENT,
+    cod_clientes INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR (255) NOT NULL, 
     endereco VARCHAR (150) NOT NULL,
     cidade VARCHAR (100) NOT NULL,
